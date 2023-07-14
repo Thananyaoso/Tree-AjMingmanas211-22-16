@@ -1,4 +1,4 @@
-mDEPS= tree
+DEPS= tree
 
 compile: main.cpp 
 	 g++ main.cpp -o $(DEPS)
@@ -8,3 +8,5 @@ run: $(DEPS)
 
 clean: $(DEPS)
 	 rm $(DEPS)
+
+
