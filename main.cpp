@@ -2,6 +2,7 @@
 #include <iomanip>
 using namespace std;
 #include "BST.h"
+
 int main(int argc, char* argv[]) {
   unsigned int i; // counter to loop from 1-10
   BST b;

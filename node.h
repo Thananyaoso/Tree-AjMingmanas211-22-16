@@ -11,9 +11,6 @@ public:
         int get_value(){return data;}
         TreeNode* move_right(){ return rightPtr; }
         TreeNode* move_left(){ return leftPtr; }
-
-       
-
 }; // end structure treeNode 
         
 

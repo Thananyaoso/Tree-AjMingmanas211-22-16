@@ -11,7 +11,7 @@ private:
 
 public:
     BST();
-    ~BST();
+    ~BST();  
     void kill(TreeNode*);
     void insert_node(int);
     void print_all(int = 0);
@@ -157,5 +157,6 @@ void BST::print_all(int option) {
         printTree(rootPtr, 0);
         cout << endl;
     }
+  
 }
 
